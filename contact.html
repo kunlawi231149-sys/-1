@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOR-KAI Studio | ติดต่อเรา</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      border: var(--border-thick);
+      box-shadow: 3px 3px 0px var(--black);
+      font-size: 1rem;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">กอ-ไก่ 🐔</a>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="services.html">บริการของเรา</a>
+      <a href="work.html">ผลงานของเรา</a>
+      <a href="process.html">ขั้นตอนการทำงาน</a>
+      <a href="contact.html" class="active">ติดต่อเรา</a>
+    </nav>
+  </header>
+
+  <main style="padding: 4rem 5%; max-width: 700px; margin: 0 auto;">
+    <h1 style="font-size: 3rem; text-align: center; margin-bottom: 2rem;">
+      <span style="background: var(--pastel-orange); padding: 0.2rem 1rem; border: var(--border-thick); box-shadow: var(--shadow-box);">
+        Get In Touch
+      </span>
+    </h1>
+
+    <div class="card" style="background: var(--cream);">
+      <form action="#" method="post">
+        <label style="font-weight: bold;">ชื่อของคุณ</label>
+        <input type="text" placeholder="ระบุชื่อ-นามสกุล..." required>
+
+        <label style="font-weight: bold;">อีเมล</label>
+        <input type="email" placeholder="example@domain.com" required>
+
+        <label style="font-weight: bold;">ข้อความ / รายละเอียดงาน</label>
+        <textarea rows="5" placeholder="เล่ารายละเอียดโครงการของคุณให้เราฟัง..." required></textarea>
+
+        <button type="submit" class="btn-main" style="width: 100%;">ส่งข้อความ 📩</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 KOR-KAI Creative Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
